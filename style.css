@@ -6,4 +6,9 @@
 
 .square{
     background-color: pink;
+    border: 2px solid black;
+}
+
+.spacing > *{
+    padding: 5px 0 5px 0;
 }

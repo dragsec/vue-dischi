@@ -10,7 +10,7 @@ const app = new Vue({
         StampaAlbum: function(){
                 axios.get('https://flynn.boolean.careers/exercises/api/array/music')
                 .then((response1)=>{
-                this.AlbumsList.response1.data.response
+                this.AlbumsList = response1.data.response
             });
             
 
