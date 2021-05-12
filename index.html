@@ -10,6 +10,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <main id="MainAlbum">
+
+        <button @click='StampaAlbum'>Crea Lista</button>
+
+        <div class="square" v-for="album in AlbumsList">
+            <img :src="album.poster" alt="cover"> 
+            <h1>{{album.title}}</h1>
+            <h2>{{album.author}}</h2>
+            <h3>{{album.year}}</h3>  
+        </div>  
+
+    </main>
+
     
     <script src="myScript.js"></script>
 </body>
