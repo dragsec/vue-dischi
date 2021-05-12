@@ -7,8 +7,14 @@
 .square{
     background-color: pink;
     border: 2px solid black;
+    text-align: center;
 }
 
-.spacing > *{
+.square > *{
     padding: 5px 0 5px 0;
 }
+
+.square > img{
+    height: 250px;
+}
+

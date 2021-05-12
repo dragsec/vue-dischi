@@ -15,7 +15,7 @@
 
         <button @click='StampaAlbum'>Crea Lista</button>
 
-        <div class="square spacing" v-for="album in AlbumsList">
+        <div class="square" v-for="album in AlbumsList">
             <img :src="album.poster" alt="cover"> 
             <h1>{{album.title}}</h1>
             <h2>{{album.author}}</h2>
